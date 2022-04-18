@@ -10,6 +10,10 @@ body {
     background-color: hsl(216, 55%, 11%);
 }
 
+main {
+    margin: 1rem;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -17,17 +21,16 @@ body {
     background-color: hsl(210, 70%, 13%);
     margin: 0 auto;
     margin-top: 12vh;
-    width: 350px;
-    overflow: hidden;
+    width:80%;
+    max-width:350px;
     padding: 25px;
     border-radius: 24px;
-    z-index: 3;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .equilibrium-image img {
     height: auto;
-    width: 350px;
+    width: 100%;
     border-radius: 3%;
     color: none;
 }
@@ -101,12 +104,6 @@ svg {
 }
 
 /* Hover */
-
-.equilibrium-image img:hover{
-/*     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    background-color: hsla(194, 100%, 74%, 0.705); */
-    filter: blur(30%);
-}
 
 .main h3 a:hover {
     color: aqua;
